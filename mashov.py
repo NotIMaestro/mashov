@@ -5,7 +5,7 @@ from selenium import webdriver
 import time
 
 #opens the browser & website
-browser = webdriver.Firefox(executable_path = "C:/Users/chocr/Documents/geckodriver.exe")
+browser = webdriver.Firefox(executable_path = "/app/vendor/geckodriver/geckodriver.exe")
 browser.maximize_window()
 browser.get("https://web.mashov.info/students/login")
 time.sleep(2)
