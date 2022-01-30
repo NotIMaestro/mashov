@@ -20,7 +20,7 @@ time.sleep(2)
 
 #types username
 username = browser.find_element_by_xpath("//*[@id='mat-input-0']")
-username.send_keys('332655877')
+username.send_keys('USERNAME HERE')
 username.send_keys(Keys.ENTER)
 time.sleep(2)
 
@@ -28,7 +28,7 @@ time.sleep(2)
 
 #types password
 password = browser.find_element_by_xpath('//*[@id="mat-input-4"]')
-password.send_keys('mashov853')
+password.send_keys('PASSWORD HERE')
 password.send_keys(Keys.ENTER)
 time.sleep(2)
 
